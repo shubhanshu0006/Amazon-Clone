@@ -96,4 +96,73 @@ span {
 
 .panel{
     display: flex;
+    background-color: #222f3D ;
+    color: white;
+    height: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-all{
+    display: flex;
+    padding: 8px 9px;
+    
+}
+.panel-all i {
+    font-size: 1.2rem;
+}
+.panel-all span{
+    padding: 0px 0px 0px 5px;
+    font-size: 1rem;
+}
+.panel-ops{
+    display: flex;
+    
+    width: 75%;
+}
+.panel-ops p {
+    
+    padding: 8px 9px;
+}
+.panel-deals {
+    font-size: .9rem ;
+    font-weight: 700;
+}
+.hero-section{
+    background-image: url("hero_image.jpg");
+    height: 350px;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-message{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom: 35px;
+    width:80%;
+
+}
+.hero-msg a{
+    color: #007185;
+}
+
+.shop-section{
+    display: flex;
+   
+    justify-content: space-evenly;
+    height: 250px;
+    background-color: #e2e5e6;
+   
+}
+.box{
+    border: 2px solid black;
+    width: 24%;
+    background-color: white;
+    
+
 }
